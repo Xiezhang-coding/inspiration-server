@@ -14,8 +14,8 @@ import redis.clients.jedis.JedisPoolConfig;
 @Configuration
 public class BeanConfig {
 
-    private static final String HOST = "r-8vbc0d9fa9024714di.redis.zhangbei.rds.aliyuncs.com";
-    private static final String PASSWORD = "content_data2021";
+    private static final String HOST = "";
+    private static final String PASSWORD = "";
 
     @Bean
     public JedisCluster jedisCluster() {
